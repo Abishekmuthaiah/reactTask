@@ -1,0 +1,88 @@
+.rightbar {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.rightbar:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.rightbar h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.trends-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trend-item {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+}
+
+.trend-item:hover {
+  background: #f0f0f0;
+}
+
+.trend-item h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.trend-item p {
+  margin: 3px 0 0 0;
+  font-size: 12px;
+  color: #999;
+}
+
+.follow-btn {
+  background: white;
+  color: #6366f1;
+  border: 1px solid #ddd;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.follow-btn:hover {
+  background: #e7f3ff;
+  border-color: #6366f1;
+}
+
+.follow-btn.followed {
+  background: #e7f3ff;
+  color: #6366f1;
+  border-color: #6366f1;
+}

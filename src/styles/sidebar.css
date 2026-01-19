@@ -1,0 +1,61 @@
+.sidebar {
+  width: 220px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: all 0.3s ease;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+  border: 1px solid #e0e0e0;
+}
+
+.sidebar:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.sidebar p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 10px 0;
+}
+
+.connect-btn {
+  width: 100%;
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.connect-btn:hover {
+  background: #4f46e5;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+}
+
+.connect-btn.following {
+  background: #e7f3ff;
+  color: #6366f1;
+}
